@@ -14,7 +14,7 @@ function Content() {
 
 function App() {
   return (
-    <MiniKitProvider>
+    <MiniKitProvider enabled={true}>
       <Content />
     </MiniKitProvider>
   );
