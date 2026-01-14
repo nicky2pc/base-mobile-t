@@ -1,12 +1,13 @@
+// app.tsx
 import { sdk } from '@farcaster/miniapp-sdk';
 import { useEffect } from 'react';
 
 function App() {
-    useEffect(() => {
-        sdk.actions.ready();
-    }, []);
+  useEffect(() => {
+    sdk.actions.ready();
+  }, []);
 
-    return(...your app content goes here...)
+  return <div>Hello World</div>;
 }
 
 export default App;
