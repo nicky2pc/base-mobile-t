@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Base Mini App метаданные для эмбедов -->
+    <meta name="fc:miniapp" content='{
+      "version":"next",
+      "imageUrl":"https://your-app.com/embed-image.png",
+      "button":{
+        "title":"Launch App",
+        "action":{
+          "type":"launch_miniapp",
+          "name":"My Mini App",
+          "url":"https://your-app.com"
+        }
+      }
+    }' />
+    
+    <title>My Base Mini App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

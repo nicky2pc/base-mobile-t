@@ -1,0 +1,40 @@
+{
+  "frame": {
+    "version": "1",
+    "name": "Base Defense",
+    "homeUrl": "https://base-mobile.vercel.app/",
+    "description": "Shoot em all in this exciting game on the  Base!",
+    "subtitle": "Be the best.",
+    "primaryCategory": "games",
+    "tags": [
+      "game",
+      "shooter",
+      "base",
+      "testnet"
+    ],
+    "buttonTitle": "Play!",
+    "splashImageUrl": "https://base-mobile.vercel.app/android-chrome-512x512.png",
+    "splashBackgroundColor": "#4A98EB",
+    "heroImageUrl": "https://base-mobile.vercel.app/bg.jpg",
+    "iconUrl": "https://base-mobile.vercel.app/android-chrome-512x512.png",
+    "imageUrl": "https://base-mobile.vercel.app/logo_2.jpg",
+    "ogTitle": "Base Defense",
+    "ogDescription": "Shoot em all in this exciting game on the Base!",
+    "ogImageUrl": "https://base-mobile.vercel.app/bg.jpg",
+    "button": {
+      "title": "Play!",
+      "action": {
+        "type": "launch_frame",
+        "name": "Base Defense",
+        "url": "https://base-mobile.vercel.app/",
+        "splashImageUrl": "https://base-mobile.vercel.app/splash-image.png",
+        "splashBackgroundColor": "#4A98EB"
+      }
+    }
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjIxNTIwOTksInR5cGUiOiJhdXRoIiwia2V5IjoiMHg1OTJGZUU2M2QzZGMyNDhDODk3ZDA0NUU5MWM0NzE5MTY4MjE2NDFhIn0",
+    "payload": "eyJkb21haW4iOiJiYXNlLW1vYmlsZS52ZXJjZWwuYXBwIn0",
+    "signature": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEFjhoySolJ_teiHcbmtLKMXaFa9yS3ynE-fxHDm0FORNniRNDxYEOGiOYKOK8AZa2riAO1qVuiC8bC39vd8tINtHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  }
+}
